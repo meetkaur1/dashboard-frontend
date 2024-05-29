@@ -22,7 +22,7 @@ function App() {
     active: [],
     inactive: [],
   });
-  const data = useContext(DataContext);
+  // const data = useContext(DataContext);
   const [isSnackbarOpen, setIsSnackbarOpen] = useState({
     state: false,
     message: null,
